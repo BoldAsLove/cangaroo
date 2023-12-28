@@ -1,4 +1,4 @@
-# cangaroo
+# cangaroo2
 open source can bus analyzer
 
 written by Hubert Denkmair <hubert@denkmair.de>
@@ -13,7 +13,7 @@ written by Hubert Denkmair <hubert@denkmair.de>
 
 ## building on windows
 * Qt Creator (Community Version is okay) brings everything you need
-* except for the PCAN libraries. 
+* except for the PCAN libraries.
   * Get them from http://www.peak-system.com/fileadmin/media/files/pcan-basic.zip
   * Extract to .zip to src/driver/PeakCanDriver/pcan-basic-api
   * Make sure PCANBasic.dll (the one from pcan-basic-api/Win32 on a "normal" 32bit Windows build)
@@ -46,7 +46,7 @@ written by Hubert Denkmair <hubert@denkmair.de>
 * use libnl-route-3 for socketcan device config read
 * query socketcan interfaces for supported config options
 * new logging subsystem, do not use QDebug any more
-* some performance improvements when receiving lots of messages 
+* some performance improvements when receiving lots of messages
 * bugfix with time-delta view: timestamps not shown when no previous message avail
 
 ### v0.1.2 released 2016-01-12
